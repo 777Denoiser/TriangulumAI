@@ -205,7 +205,7 @@ Feel free to contribute to this project by submitting pull requests, reporting i
 
 Focusing on Quantum-Inspired Optimization & Security:
 
-Quantum-Assisted Monochromatic Triangle Minimization:
+## Quantum-Assisted Monochromatic Triangle Minimization:
 
 Concept: Explore using quantum annealing or gate-based quantum algorithms (like Variational Quantum Eigensolver, VQE) to find the absolute minimum number of monochromatic triangles. Classical GAs are often stuck in local optima. The potential of Quantum algorithms for this purpose is very promising. This is hard to simulate classically, particularly with larger datasets.
 
@@ -213,7 +213,7 @@ Novelty: Instead of directly encoding a graph coloring problem for encryption, u
 
 Challenges: Mapping a graph coloring problem to a quantum computer requires clever encoding. Near-term quantum devices have limited qubit counts and are noisy. Developing hybrid quantum-classical algorithms is crucial.
 
-Monochromatic Triangle Based Quantum Key Distribution (QKD):
+## Monochromatic Triangle Based Quantum Key Distribution (QKD):
 
 Concept: Use the result of the Monochromatic Triangle Problem to parameterize the encoding/decoding states in a QKD protocol.
 
@@ -221,7 +221,7 @@ Novelty: Existing QKD protocols typically rely on mathematical or physical prope
 
 Challenges: This adds overhead to the QKD protocol. You have to ensure the monochromatic triangle problem doesn't introduce vulnerabilities or biases that EVE can exploit. Also, the problem is NP complete.
 
-Quantum-Resistant Graph Coloring Hash Functions:
+## Quantum-Resistant Graph Coloring Hash Functions:
 
 Concept: Build cryptographic hash functions based on the difficulty of the monochromatic triangle problem.
 
@@ -231,7 +231,7 @@ Challenges: Proving the quantum-resistance of hash functions is notoriously diff
 
 Enhancing Classical Algorithm Security with Graph Coloring
 
-Dynamic Graph Coloring for Moving Target Defense:
+## Dynamic Graph Coloring for Moving Target Defense:
 
 Concept: Continuously change the graph structure and coloring used for encryption.
 
@@ -239,7 +239,7 @@ Novelty: Implement an algorithm that dynamically modifies the graph and its "opt
 
 Challenges: Ensuring that the graph transformations are secure and don't introduce weaknesses. Managing the overhead of constant graph changes.
 
-Adaptive Monochromatic Triangle Parameterization:
+## Adaptive Monochromatic Triangle Parameterization:
 
 Concept: Adapt the parameters of the genetic algorithm (mutation rate, crossover, population size) based on observed attack patterns.
 
@@ -247,7 +247,7 @@ Novelty: If an intrusion detection system spots unusual activity, it can trigger
 
 Challenges: Creating a robust feedback loop between the intrusion detection system and the GA without introducing vulnerabilities.
 
-Multi-Layered Encryption:
+## Multi-Layered Encryption:
 
 Concept: Utilize the monochromatic triangle problem to seed a classical encryption algorithm (e.g., AES).
 
